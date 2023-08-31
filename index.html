@@ -74,20 +74,53 @@
   <!-- // Header -->
   <div class="ms-container d-flex">
     <!-- Sidebar -->
-    <div id="sidebar" class="d-flex flex-column justify-content-between align-items-center py-4">
-      <ul class="list-unstyled">
+    <div id="sidebar" class="d-flex flex-column align-items-center py-4">
+      <ul class="list-unstyled mb-0">
         <li class="px-3 py-2"><a href="#" class="text-reset text-decoration-none"><i class="fa-solid fa-house"></i> <span class="d-none d-lg-inline">Home</span></a></li>
         <li class="px-3 py-2"><a href="#" class="text-reset text-decoration-none"><i class="fa-solid fa-chart-simple"></i> <span class="d-none d-lg-inline">Stats</span></a></li>
         <li class="px-3 py-2"><a href="#" class="text-reset text-decoration-none"><i class="fa-solid fa-signal"></i> <span class="d-none d-lg-inline">Signals</span></a></li>
       </ul>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled mb-0 mt-auto"></ul>
         <li class="px-3 py-2"><a href="#" class="text-reset text-decoration-none"><i class="fa-solid fa-gear"></i> <span class="d-none d-lg-inline">Admin</span></a></li>
       </ul>
     </div>
     <!-- // Sidebar -->
   
     <!-- Main -->
-    <main></main>
+    <main>
+      <div class="container-fluid" id="top-main">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col order-md-1">
+            <span>Nuovo Studente</span>
+            <span>
+              <button type="button" class="btn btn-outline-light">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </span>
+          </div>
+          <div class="col">
+            <div>
+              Boolean <span class="badge rounded-pill">Piano blaze</span>
+            </div>
+            <div>
+              <span class="badge rounded-pill">3 app</span>
+              <span><i class="fa-solid fa-angles-right"></i></span>
+              <span class="badge rounded-pill d-lg-none"><i class="fa-solid fa-plus"></i></span>
+              <span class="badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
+              <span class="badge rounded-pill d-none d-lg-inline">Boolean web app</span>
+              <span class="badge rounded-pill d-none d-lg-inline">Boolean blog app</span>
+            </div>
+          </div>
+          <div class="col">
+            <div>Studenti online negli ultimi 30 minuti</div>
+            <div>125</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="bottom-main"></div>
+    </main>
+    </main>
     <!-- // Main -->
   </div>
   

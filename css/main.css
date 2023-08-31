@@ -3,5 +3,12 @@ main {
   background-color: pink;
   height: 100%;
   overflow-y: auto;
-  width: calc(100vw - 4.25rem);                            /* !! provvisorio */
+  width: 100%;                
+}
+main #top-main {
+  background-color: var(--top-main-color);
+  color: var(--bs-white);
+}
+main #top-main .rounded-pill {
+  background-color: #165bba;
 }
