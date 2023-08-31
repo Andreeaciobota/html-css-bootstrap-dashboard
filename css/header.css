@@ -1,4 +1,21 @@
 header {
-  background-color: lightcoral;
   height: 4.375rem;
+}
+header .container-fluid,
+header .row {
+  height: 100%;
+}
+
+header .col-auto img:first-of-type {
+  width: 50px;
+}
+
+header .col-auto .btn-link,
+header .col-auto .btn-link:active {
+  color: var(--bs-gray);
+}
+
+header .col-auto .dropdown .btn-link,
+header .col-auto .dropdown .btn-link:active {
+  color: var(--bs-warning);
 }
