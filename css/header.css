@@ -6,7 +6,7 @@ header .row {
   height: 100%;
 }
 header .col-auto img:first-of-type {
-  width: 50px;
+  width: 3.125rem;
 }
 
 header .col .input-group > * {
