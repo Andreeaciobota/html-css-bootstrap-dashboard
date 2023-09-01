@@ -2,7 +2,6 @@ main {
   overflow-y: auto;
   width: 100%;
 }
-
 main #top-main {
   background-color: var(--top-main-color);
   color: var(--bs-white);
@@ -10,7 +9,6 @@ main #top-main {
 main #top-main .rounded-pill {
   background-color: #165bba;
 }
-
 main #bottom-main table th:not(:first-child),
 main #bottom-main table td:not(:first-child) {
   text-align: center;
@@ -18,4 +16,14 @@ main #bottom-main table td:not(:first-child) {
 
 main #bottom-main table img {
   width: 30px;
+}
+
+.offcanvas.offcanvas-end {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .offcanvas.offcanvas-end {
+    width: 50%;
+  }
 }

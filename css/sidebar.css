@@ -1,27 +1,26 @@
 sidebar {
   background-color: var(--sidebar-color);
+  background-image: url(../img/sidebar-bg.png);
+  background-size: cover;
   color: var(--bs-white);
 }
+
 #sidebar ul li:hover {
   background-color: var(--bs-gray);
 }
-
 #sidebar ul .fa-solid.fa-gear {
   font-size: 18px;
-} 
-
+}
 /*
 ==================
 Responsive
 ==================
 */
-
 @media screen and (min-width: 992px) {
   #sidebar {
     width: 9.375rem;
   }
-
-  #sidebar ul .fa-solid {
-    width: 30px;
+#sidebar ul .fa-solid {
+  width: 30px;
   }
 }
