@@ -1,4 +1,4 @@
-sidebar {
+#sidebar {
   background-color: var(--sidebar-color);
   background-image: url(../img/sidebar-bg.png);
   background-size: cover;
@@ -9,7 +9,7 @@ sidebar {
   background-color: var(--bs-gray);
 }
 #sidebar ul .fa-solid.fa-gear {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 /*
 ==================
@@ -20,7 +20,7 @@ Responsive
   #sidebar {
     width: 9.375rem;
   }
-#sidebar ul .fa-solid {
-  width: 30px;
+  #sidebar ul .fa-solid {
+    width: 1.875rem;
   }
 }
